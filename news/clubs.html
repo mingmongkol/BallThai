@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BallThai</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        .header{
+            width: 100%;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+            background-color: rgb(162, 13, 5)
+        }
+        a{
+            text-decoration: none;
+        }
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .club-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .club-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .club-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .club-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .club-info h3 {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<!-------ส่วน header---------->
+<div class="header sticky-top d-flex flex-column">
+    <div class="container">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="../index.html"><img src="../img/banner/logo.png" width="15%"></a>
+                </div>
+                <div class="col-md-9" align="right">
+                    <a href="../index.html"><font color="white">Home I</font></a>
+                    <a href="../news/fixtures.html"><font color="white">Fixtu I</font></a>
+                    <a href="../news/standing.html"><font color="white">Standings I</font></a>
+                    <a href="../news/clubs.html"><font color="white">Clubs</font></a>
+                    <a href="../news/me.html"><font color="white">Made by</font></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------ส่วน header---------->
+</head>
+<body>
+    <div class="club-grid">
+        <div class="club-card">
+            <img src="../img/clubs/d1.jpg" alt="หนองบัว พิชญ เอฟซี">
+            <div class="club-info">
+                <h3>หนองบัว พิชญ เอฟซี</h3>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d2.jpg" alt="ระยอง เอฟซี">
+            <div class="club-info">
+                <h3>ระยอง เอฟซี</h3>
+                <p>ดับบลิวเอชเอ ระยอง สเต...</p>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d3.jpg" alt="ขอนแก่น ยูไนเต็ด">
+            <div class="club-info">
+                <h3>ขอนแก่น ยูไนเต็ด</h3>
+                <p>องค์การบริหารส่วนจังหวัด...</p>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d4.jpeg" alt="นครราชสีมา มาสด้า เอฟซี">
+            <div class="club-info">
+                <h3>นครราชสีมา มาสด้า เอฟซี</h3>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d5.jpg" alt="ราชบุรี เอฟซี">
+            <div class="club-info">
+                <h3>ราชบุรี เอฟซี</h3>
+                <p>ราชบุรี สเตเดียม</p>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d6.jpg" alt="บีจี ปทุม ยูไนเต็ด">
+            <div class="club-info">
+                <h3>บีจี ปทุม ยูไนเต็ด</h3>
+                <p>บีจี สเตเดียม</p>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d7.jpg" alt="ลำพูน วอริเออร์">
+            <div class="club-info">
+                <h3>ลำพูน วอริเออร์</h3>
+                <p>ลำพูน วอริเออร์ สเตเดียม</p>
+            </div>
+        </div>
+        <div class="club-card">
+            <img src="../img/clubs/d8.jpg" alt="อุทัยธานี เอฟซี">
+            <div class="club-info">
+                <h3>อุทัยธานี เอฟซี</h3>
+                <p>กีฬากลางจังหวัดอุทัยธานี</p>
+            </div>
+        </div>
+            <div class="club-card">
+                <img src="../img/clubs/d9.jpg" alt="เมืองทอง ยูไนเต็ด">
+                <div class="club-info">
+                    <h3>เมืองทอง ยูไนเต็ด</h3>
+                    <p>ธันเดอร์โดม สเตเดียม</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <img src="../img/clubs/d10.jpg" alt="พีที ประจวบ เอฟซี">
+                <div class="club-info">
+                    <h3>พีที ประจวบ เอฟซี</h3>
+                    <p>สามอ่าว สเตเดียม</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <img src="../img/clubs/d11.jpg" alt="สุโขทัย เอฟซี">
+                <div class="club-info">
+                    <h3>สุโขทัย เอฟซี</h3>
+                    <p>ทะเลหลวง สเตเดียม</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <img src="../img/clubs/d12.jpg" alt="นครปฐม ยูไนเต็ด">
+                <div class="club-info">
+                    <h3>นครปฐม ยูไนเต็ด</h3>
+                    <p>โรงเรียนกีฬาเทศบาลนคร...</p>
+                </div>
+            </div>
+    
+            <div class="club-card">
+                <img src="../img/clubs/d13.jpg" alt="สิงห์ เชียงราย ยูไนเต็ด">
+                <div class="club-info">
+                    <h3>สิงห์ เชียงราย ยูไนเต็ด</h3>
+                </div>
+            </div>
+            <div class="club-card">
+                <img src="../img/clubs/d14.jpg" alt="การท่าเรือ เอฟซี">
+                <div class="club-info">
+                    <h3>การท่าเรือ เอฟซี</h3>
+                    <p>แพท สเตเดียม</p>
+                </div>
+            </div>
+            <div class="club-card">
+                <img src="../img/clubs/d15.jpg" alt="ทรู แบงค็อก ยูไนเต็ด">
+                <div class="club-info">
+                    <h3>ทรู แบงค็อก ยูไนเต็ด</h3>
+                </div>
+            </div>
+            <div class="club-card">
+                <img src="../img/clubs/d16.jpg" alt="บุรีรัมย์ ยูไนเต็ด">
+                <div class="club-info">
+                    <h3>บุรีรัมย์ ยูไนเต็ด</h3>
+                    <p>ช้าง อารีนา</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-------ส่วน footer---------->
+    <section class="">
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: #ff0000;">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: CTA -->
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Register for free</span>
+                <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
+                  Sign up!
+                </button>
+              </p>
+            </section>
+            <!-- Section: CTA -->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            ming1971tab@gmail.com:
+            <a class="text-white" href="https://mdbootstrap.com/">0967015329</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+    <!-------ส่วน footer---------->
+</body>
+</body>
+</html>
